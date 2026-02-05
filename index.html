@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Command Generator - Roblox Game Commands</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .commands-box {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-left: 5px solid #667eea;
+        }
+
+        .commands-title {
+            color: #333;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .command-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+        }
+
+        .command {
+            background: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            color: #667eea;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .command:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .play-button {
+            display: block;
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.3em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .play-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .play-button:active {
+            transform: translateY(0);
+        }
+
+        .info-text {
+            text-align: center;
+            color: #666;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Command Generator</h1>
+        <p class="subtitle">Discover the Commands - Roblox Game</p>
+        
+        <div class="commands-box">
+            <div class="commands-title">📜 Available Commands:</div>
+            <div class="command-list">
+                <div class="command">/rainbow</div>
+                <div class="command">/aurora</div>
+                <div class="command">/tp</div>
+                <div class="command">/umt</div>
+                <div class="command">/gmt</div>
+                <div class="command">/stop</div>
+                <div class="command">/go</div>
+                <div class="command">/67</div>
+            </div>
+        </div>
+
+        <a href="https://www.roblox.com/games/80923945531184/discover-the-commands" class="play-button" target="_blank">
+            ▶️ Play Game Now!
+        </a>
+        
+        <p class="info-text">Click the button above to visit the game and try these commands!</p>
+    </div>
+</body>
+</html>
